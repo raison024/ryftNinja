@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to right, #6441a5, #2a0845);
+}
+
+.nav {
+  height: 7vh;
+  width: 100%;
+  position: fixed;
+  background-image:linear-gradient(rgb(61, 20, 128),rgba(47, 52, 172, 0));
+  top: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftnav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 2.2vmin;
+  font-weight: bold;
+  color: #fff; 
+}
+.rightnav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.ryftnav{
+  text-decoration: none;
+  margin-left: 1vmin;
+  color: #fff; 
+  font-size: 2vmin;
+  font-weight: bold;
+}
+.navbutton{
+  text-decoration: none;
+  margin-left: 2vmin;
+  color: #fff; 
+  font-size: 2vmin;
+  font-weight: bold;
+}
+.navbutton2{
+  padding: 0.5vmin;
+  margin-right: 2vmin; 
+  width: 6vw; 
+  height: 3.5vh; 
+  background-color: darkviolet; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  border-radius: 0.5vmin;
+}
+
+.Logo {
+  height: 4.5vh;
+  pointer-events: none;
+  padding: 0.2vmin;
+  margin-right: 0.1vw;
+  margin-left: 1vw;
+}
+
+.App-header {
+  min-height: 450vh;
+} 
+
+@media only screen and (max-width: 600px) {
+  .ryftnav{
+    font-size: 3.5vmin;
+  }
+  .navbutton{
+    font-size: 2.8vmin;
+  }
+  .navbutton2{
+    width: 15vw;
+    height: 4vh;
+  }
+  .Logo{
+    height: 3.7vh;
+    margin-left: 4vw;
+  }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 601px){
+  .navbutton2{
+    width: 15vw;
+    height: 4vh;
+  }
+}

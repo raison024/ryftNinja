@@ -1,0 +1,33 @@
+.footer {
+    text-align: left;
+    background-color: #121212;
+    width: 100%;
+  }
+
+.footer-header {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 2vmin;
+    color: black;
+  }
+.coolumn{   
+  margin: 1vmin;
+}
+
+
+.Roow{
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+}
+.Title{
+  color: #ddd;
+  font-size: 3vmin;
+}
+.Stuff{
+  color: #fff;
+  font-size: 1.8vmin;
+}

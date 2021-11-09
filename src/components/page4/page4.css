@@ -1,0 +1,121 @@
+.page4 {
+  text-align: left;
+  background-color: #ddd;
+  width: 100%;
+  background-image: url(../../assets/Cover9.jpg);
+}
+
+.page4-header {
+  min-height: 100vh;
+  padding: 4vmin;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page4-logo{
+  height: 15vmin;
+  pointer-events: none;
+  margin: 2vmin;
+}
+
+.box{
+  display: flex;
+  width: 20vw;
+  height: 45vh;
+  box-shadow: 0 0 2vmin grey;
+  padding: 1vmin;
+}
+.b1{
+  background-color: #000;
+} 
+.b2{
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.inputtext{
+  font-size: 1.8vmin; 
+  color: black; 
+  font-weight: bold;
+}
+
+.inputfield{
+  width: 17vw; 
+  height: 4vh;
+  background-color: white; 
+  color: black; 
+  border-color: black; 
+  border-width: 0vmin; 
+  box-shadow: 0 0 2vmin darkgrey;
+}
+.inputfield2{
+  width: 17vw; height: 6vh;
+  background-color: white; 
+  color: black; 
+  border-color: black; 
+  border-width: 0vmin; 
+  box-shadow: 0 0 2vmin darkgrey;
+}
+
+@media only screen and (max-width: 600px) {
+  .box{
+    height: 40vh;
+    width: 85vw;
+    overflow: hidden;
+    box-shadow: none;
+  }
+  .page4-header{
+    flex-direction: column;
+  }
+  .b1{
+    background-color: #121212;
+  }
+  .page4-logo{
+    height: 13vh;
+  }
+  .inputtext{
+    font-size: 3vmin;
+  }
+  .inputfield{
+    height: 4vh;
+    width: 50vw;
+  }
+  .inputfield2{
+    height: 8vh;
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 601px){
+  .box{
+    height: 32vh;
+    width: 49vw;
+    overflow: hidden;
+    box-shadow: none;
+  }
+  .page4-header{
+    flex-direction: column;
+  }
+  .b1{
+    background-color: #121212;
+  }
+  .inputfield{
+    height: 3vh;
+  }
+}

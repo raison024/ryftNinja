@@ -1,0 +1,73 @@
+.page21 {
+    text-align: left;
+    width: 100%;
+  }
+
+.page21-header {
+    min-height: 100vh;
+    padding: 2vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(2vmin + 1.5vmin);
+    color: #fff;
+    margin-left: 1vmin;
+  }
+  .page21-title{
+    font-size: 3.5vmin; 
+    font-weight: bold;
+    color: #fff;
+  }
+  .page21-content{
+    font-size: 2.3vmin; 
+    color: #f1f1f1;
+    font-weight: bold;
+  }
+  .page21-content2{
+    font-size: 2.3vmin; 
+    color: #ddd;
+    font-weight: lighter;
+  }
+  
+  .page21-logo{
+    height: 60vmin;
+    pointer-events: none;
+    margin: 2vmin;
+  }
+  .ico{
+    height: 10vmin;
+    pointer-events: none;
+    margin: 1vmin;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .page21-header {
+      flex-direction: column;
+    }
+    .page21-title{
+      font-size: 5.2vmin; 
+      font-weight: bold;
+    }
+    .page21-content{
+      font-size: 3.4vmin; 
+      font-weight: bolder;
+    }
+    .page21-content2{
+      font-size: 3.2vmin; 
+      font-weight:bold;
+    }
+    .page21-logo{
+      height: 65vmin;
+    }
+  }
+  
+  @media only screen and (max-width: 950px) and (min-width: 601px){
+    .page21{
+      text-align: center;
+    }
+    
+    .page21-header {
+      flex-direction: column;
+    }
+  }

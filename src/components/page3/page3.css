@@ -1,0 +1,168 @@
+.page3 {
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+
+.page3-header {
+    min-height: 100vh;
+    color: #000;
+    padding: 2vmin;
+  }
+.page3-title{
+    margin-top: 10vmin; 
+    font-size: 2.6vmin; 
+    font-weight: bold;
+}
+.page3-content{ 
+    font-size: 2.3vmin; 
+    color: #121212; 
+    font-weight: lighter;
+}
+  .dock {
+    border-radius: 1vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5vmin;
+    padding: 1vmin;
+  }
+  .d1{
+    background-color: #fafafa;
+    width: 15vw;
+    height: 35vh;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 0vmin;
+    box-shadow: 0 0 3vmin black;
+  }
+  .d1:hover{
+    box-shadow: 0 0 5vmin blueviolet;
+  }
+  .d2{
+    background-color: #000;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 0vmin;
+    width: 16vw;
+    height: 42vh;
+    box-shadow: 0 0 3vmin #1e1e1e;
+  }
+  .d2:hover{
+    box-shadow: 0 0 5vmin blueviolet;
+    transform: scale(1.05);
+  }
+
+
+  .cardrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .column{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dockbutton{
+    width: 11vw;
+    height: 4.3vh;
+  }
+
+  .discount{
+    background-color: blueviolet;
+    border-radius: 3vmin;
+    width: 8vw;
+    height: 5vh;
+    font-size: 1.5vmin;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .discount2{
+    background-color: #fafafa;
+    border-radius: 2vmin;
+    width: 8vw;
+    height: 5vh;
+    font-size: 1.5vmin;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .year1{
+    font-size: 2.5vmin; 
+    font-weight: bold; 
+    color: #555555; 
+    margin: 0.5vmin;
+  }
+  .year2{
+    font-size: 2.5vmin; 
+    font-weight: bold; 
+    color: #ddd; 
+    margin: 0.5vmin;
+  }
+
+  @media only screen and (max-width: 600px){
+    .cardrow{
+      flex-direction: column;
+    }
+    .page3-title{
+      font-size: 5vmin;
+    }
+    .page3-content{
+      font-size: 3.5vmin;
+    }
+    .d1{
+      width: 38vw;
+      height: 23vh;
+    }
+    .d2{
+      width: 44vw;
+      height: 28vh;
+    } 
+    .dockbutton{
+      width: 11vw;
+      height: 3vh;
+    }
+    .discount{
+      width: 17vw;
+      height: 3.5vh;
+      font-size: 2.5vmin;
+    }
+    .discount2{
+      width: 18vw;
+      height: 3.5vh;
+      font-size: 3vmin;
+    }
+    .year1{
+      font-size: 4vmin;
+    }
+    .year2{
+      font-size: 4.5vmin;
+    }
+  }
+
+  @media only screen and (max-width: 900px) and (min-width: 601px){
+    .cardrow{
+      flex-direction: column;
+    }
+
+    .d1{
+      width: 25vw;
+      height: 35vh;
+    }
+    .d2{
+      width: 28vw;
+      height: 35vh;
+    }
+  }
