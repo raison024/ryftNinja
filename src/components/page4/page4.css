@@ -72,13 +72,22 @@
   border-width: 0vmin; 
   box-shadow: 0 0 2vmin darkgrey;
 }
-
+.submitbutton{
+  height: 4vh;
+  width: 8vw;
+  background-color: black;
+  color: #f1f1f1;
+  font-size: 1.5vmin;
+  border-width: 0;
+  margin: 2vh;
+}
 @media only screen and (max-width: 600px) {
   .box{
     height: 40vh;
     width: 85vw;
     overflow: hidden;
     box-shadow: none;
+    padding: 1.5vmin;
   }
   .page4-header{
     flex-direction: column;
@@ -99,6 +108,10 @@
   .inputfield2{
     height: 8vh;
     width: 50vw;
+  }
+  .submitbutton{
+    width: 25vw;
+    font-size: 2vmin;
   }
 }
 

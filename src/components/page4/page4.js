@@ -24,6 +24,7 @@ function page4() {
         emailjs.sendForm('service_i5rnsy8', 'template_80y5muq', e.target, 'user_GBniWAJrj6kd0Q59Erre8')
           .then((result) => {
               window.location.reload()  
+              alert('Thank you for your response.');
           }, (error) => {
               console.log(error.text);
           });
@@ -63,13 +64,7 @@ function page4() {
                     <input type="text" className="inputfield" name="from_email"/>
                     <p className="inputtext">Message</p>
                     <input type="text" className="inputfield2" name="message"/>
-                    <Button
-                    onClick={linkedinclick}
-                    style={{color: '#fff'}}
-                    startIcon={<Send 
-                    style={{height: '4vh', width: '4vh',
-                    color: '#000', marginTop:'1vh', marginBottom: '1vh'}}/>}>  
-                    </Button>
+                    <input type="submit" value="Submit" className="submitbutton"/>
                 </form>
             </div>
             </header>
